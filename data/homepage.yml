@@ -211,14 +211,14 @@ contact:
   button:
     icon: "icon-mail-fill"
     btnText: "Send Message"
-    btnAction: 'mailto:mdancho@business-science.io'
+    btnAction: 'mailto:your-email@gmail.com'
     
   phone:
     title: "Phone Number"
     number: "--"
   email:
     title: "Email"
-    email: '<a href="mailto:mdancho@business-science.io">mdancho@business-science.io</a>'
+    email: '<a href="mailto:your-email@gmail.com">your-email@gmail.com</a>'
   address:
     title: "Address"
     address: "--"
