@@ -17,13 +17,16 @@
         {{ end }}
       </ul>
     </div>
+    
     <div class="footer__right">
-      <a href="https://radity.com/"
+      <a href="https://www.business-science.io/"
         ><img
-          src="{{ .Site.Params.footer.radity_logo.x | absURL }}"
-          srcset="{{ .Site.Params.footer.radity_logo.x | absURL }} 1x, {{ .Site.Params.footer.radity_logo._2x | absURL }} 2x"
-          alt="{{ .Site.Params.footer.radity_logo.alt }}"
+          src="{{ .Site.Params.footer.site_logo.x | absURL }}"
+          srcset="{{ .Site.Params.footer.site_logo.x | absURL }} 1x, {{ .Site.Params.footer.site_logo._2x | absURL }} 2x"
+          alt="{{ .Site.Params.footer.site_logo.alt }}"
+          style="max-width:70px;"
       /></a>
     </div>
+    
   </div>
 </footer>
