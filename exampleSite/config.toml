@@ -68,7 +68,7 @@ theme = "raditian-free-hugo-theme"
     text2 = "Dancho"
 
   [params.footer]
-      copyright = "© Your Website Here. All rights reserved."
+      copyright = "© Matt Dancho. All rights reserved."
       [params.footer.site_logo]
         x = "img/general/business-science-logo.png"
         _2x = "img/general/business-science-logo.png"
