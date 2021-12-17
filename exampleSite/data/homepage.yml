@@ -9,6 +9,7 @@ showcase:
     _2x: "img/showcase/data-science.gif"
   imageMobile:
     x: "img/showcase/data-science.gif"
+    _2x: "img/showcase/data-science.gif"
 
   button:
     icon: "icon-mail-fill"
@@ -67,6 +68,7 @@ about:
     URL: "https://www.linkedin.com"
   image:
     x: "img/who-am-i/user-picture-2.jpg"
+    _2x: "img/who-am-i/user-picture-2.jpg"
 
 # experience
 experience:
@@ -160,6 +162,7 @@ client_and_work:
         URL: "https://business-science.shinyapps.io/sales_dashboard_demand_forecast/"
       image:
         x: "img/works/app_sales_demand_forecast.jpg"
+        _2x: "img/works/app_sales_demand_forecast.jpg"
       is_even: true
 
     - title: "Product Price Recommendation"
@@ -170,6 +173,7 @@ client_and_work:
         URL: "https://business-science.shinyapps.io/cannondale_price_prediction_app/"
       image:
         x: "img/works/app_cannondale_price_prediction.jpg"
+        _2x: "img/works/app_cannondale_price_prediction.jpg"
       is_even: false
 
     
@@ -185,12 +189,14 @@ testimonial:
       content: "In less than 6 months after starting my first Business Science Course with Matt I had fully transitioned into a role as a lead data scientist and my life is better for it!"
       image:
         x: "img/testimonials/justin.jpg"
+        _2x: "img/testimonials/justin.jpg"
         
     - name: "Chris Selig"
       position: "Data Scientist"
       content: "Because of all the R courses Matt Dancho has provided, I landed my first Data Scientist role. Setting up shiny dashboards in AWS was extremely helpful during my interview."
       image:
         x: "img/testimonials/chris.jpg"
+        _2x: "img/testimonials/chris.jpg"
 
     
 
@@ -199,6 +205,7 @@ testimonial:
       content: "After your entry into my life, I got a 10% pay raise and then after another 6-months of 26%, and in just another 2-months a 40% hike. I can grab a job wherever I want."
       image:
         x: "img/testimonials/mohana.jpg"
+        _2x: "img/testimonials/mohana.jpg"
 
 # contact
 contact:
@@ -207,6 +214,7 @@ contact:
     
   image:
     x: "img/who-am-i/user-picture-2.jpg"
+    _2x: "img/who-am-i/user-picture-2.jpg"
     
   button:
     icon: "icon-mail-fill"
