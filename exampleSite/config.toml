@@ -62,6 +62,8 @@ theme = "raditian-free-hugo-theme"
   sections = ["showcase", "about", "client-and-work", "experience", "education",  "testimonial", "contact", "newsletter"]
 
   googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
+  
+  googleAnalytics = ""
 
   [params.logo]
     text1 = "Matt"
@@ -73,3 +75,5 @@ theme = "raditian-free-hugo-theme"
         x = "img/general/business-science-logo.png"
         _2x = "img/general/business-science-logo.png"
         alt = "Design & Code - Business Science"
+  
+  
