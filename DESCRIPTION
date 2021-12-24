@@ -6,7 +6,8 @@ Authors@R:
     person("Matt", "Dancho", email = "mdancho@business-science.io", role = c("aut", "cre"))
   )
 Description:
-  This package is used with portfoliodown to install the "kross"" Data Science Website Theme.
+  This package is used with portfoliodown to install the "kross" Data Science Website Theme.
+  A modified version of the Raditian Hugo Theme <https://github.com/radity/raditian-free-hugo-theme>.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
