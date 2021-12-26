@@ -2,7 +2,7 @@
 <section id="portfolio" class="section section--border-bottom">
   <div class="container">
     <h2 class=" rad-animation-group rad-fade-down">
-      {{ .Site.Data.homepage.client_and_work.title }}
+      {{ .Site.Data.homepage.client_and_work.title | safeHTML }}
     </h2>
     {{ if .Site.Data.homepage.client_and_work.enable_clients }}
     <div class="row row--padded rad-animation-group rad-fade-down">
@@ -31,9 +31,9 @@
     >
       {{ if .is_even }}
       <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
-        <h3>{{ .title }}</h3>
+        <h3>{{ .title | safeHTML }}</h3>
         <p class="lead">
-          {{ .description }}
+          {{ .description | safeHTML }}
         </p>
         <a href="{{ .button.URL | absURL }}" class="btn btn-primary" target="_blank"
           >{{ .button.btnText }}<i class="{{ .button.icon }}"></i
@@ -59,9 +59,9 @@
         />
       </div>
       <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
-        <h3>{{ .title }}</h3>
+        <h3>{{ .title | safeHTML }}</h3>
         <p class="lead">
-          {{ .description }}
+          {{ .description | safeHTML }}
         </p>
         <a href="{{ .button.URL | absURL }}" class="btn btn-primary" target="_blank"
           >{{ .button.btnText }}<i class="{{ .button.icon }}"></i

@@ -1,6 +1,6 @@
 Package: raditian_free_hugo_theme_data_science
 Title: The Raditian Hugo Theme (Data Science Version)
-Version: 0.0.1
+Version: 0.0.1.9000
 Authors@R: 
      c(
     person("Matt", "Dancho", email = "mdancho@business-science.io", role = c("aut", "cre"))

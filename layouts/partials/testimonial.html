@@ -7,7 +7,7 @@
             <div class="col-12 col-md-4 mb-5 mb-md-0 testimonial">
                 <i class="icon-quote"></i>
                 <p>
-                    {{ .content }}
+                    {{ .content | safeHTML }}
                 </p>
                 <div class="testimonial__author">
                     <img class="lozad testimonial__author-image"
