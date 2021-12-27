@@ -1,5 +1,6 @@
 # raditian_free_hugo_theme_data_science 0.0.1.9000 (Development Version)
 
+* Added cv folder with resume
 * Safe HTML improvements
 
 # raditian_free_hugo_theme_data_science 0.0.1

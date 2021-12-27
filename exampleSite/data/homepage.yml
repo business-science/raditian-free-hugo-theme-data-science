@@ -85,7 +85,7 @@ experience:
   button2:
     icon: "icon-profile-fill"
     btnText: "Download My Resume"
-    URL: "#"
+    URL: "/cv/resume-matt.pdf"
 
   items:
     - title: "Director of Product Engineering & Market Development"
